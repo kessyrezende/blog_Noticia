@@ -10,4 +10,4 @@ Esse projeto é baseado em um site de notícias de tecnologia onde o usuário se
 
 ### Link do Site
 
-* TecNews: [](https://kessyrezende.github.io/blog_Noticia/)
+* TecNews:https://kessyrezende.github.io/blog_Noticia/
