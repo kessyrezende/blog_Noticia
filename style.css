@@ -1,0 +1,132 @@
+body, ul, li, p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: arial;
+}
+body{
+  background-image: url("imagens/fundo3.jpg");
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+body{
+  margin-bottom: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nome{
+  font-size: 3em;
+}
+h1{
+
+  padding-left: 200px;
+  margin-top: 100px;
+  color: white;
+}
+img{
+  max-width: 100%;
+  display:block;
+}
+.header{
+  background: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu{
+ display: flex;
+
+}
+.menu li{
+  margin-left: 10px;
+
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+main{
+  width: 70%;
+  background: white;
+
+}
+main {
+  position: relative;
+
+  left: 15%;
+  float: left;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.flex > div{
+flex:1 1 200px;
+margin: 10px;
+}
+
+
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px;
+
+
+}
+
+.grid1{
+  display: grid;
+}
+.grid1  img {
+  grid-column: 1;
+  grid-row: 1/3;
+  align-self: end;
+}
+
+.grid1 a p{
+  background:rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  color: white;
+  grid-column: 1;
+  grid-row: 2;
+  align-self:flex-end;
+}
+.textoo p{
+  font-size: 85%;
+}
+
+
+
+
+footer{
+  clear:both;
+  height: 200px;
+  padding: 10px;
+  position:relative;
+  top: 100px;
+  background-color: midnightBlue;
+}
+.footer {
+    text-align:right;
+    position: absolute;
+    height: 100px;
+    right: 800px;
+    top:95px;
+
+
+  }

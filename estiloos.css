@@ -1,0 +1,95 @@
+body, ul, li, p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: arial;
+}
+body{
+  background-image: url("imagens/fundono.jpg");
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nome{
+  font-size: 3em;
+}
+body{
+  margin-bottom: 100px;
+}
+.header{
+  background: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu{
+ display: flex;
+
+}
+.menu li{
+  margin-left: 10px;
+
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+
+h1{
+  color:red;
+  padding : 40px;
+  text-align: center;
+
+}
+main{
+  width: 80%;
+  margin-left: 10%;
+  padding: 20px;
+  margin-top: 30px;
+}
+h3{
+  color: break;
+  text-align: center;
+  font-weight: bold;
+}
+.sublinhado{
+  color: red;
+  padding: 30px;
+  text-decoration: underline
+}
+.negrito{
+    padding: 30px;
+    font-weight:700;
+    font-size: 2em;
+}
+
+
+
+
+footer{
+  clear:both;
+  height: 200px;
+  padding: 10px;
+  position:relative;
+  top: 100px;
+  background-color: midnightBlue;
+}
+.footer {
+    text-align:right;
+    position: absolute;
+    height: 100px;
+    right: 800px;
+    top:95px;
+
+
+  }
