@@ -92,23 +92,10 @@ margin: 10px;
 .grid1{
   display: grid;
 }
-.grid1  img {
-  grid-column: 1;
-  grid-row: 1/3;
-  align-self: end;
+.card-text{
+  font-size: 84%;
 }
 
-.grid1 a p{
-  background:rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  color: white;
-  grid-column: 1;
-  grid-row: 2;
-  align-self:flex-end;
-}
-.textoo p{
-  font-size: 85%;
-}
 
 
 
