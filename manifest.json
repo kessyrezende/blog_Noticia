@@ -14,10 +14,10 @@
       {
         "src":"imagens/seem1.jpg",
         "sizes":"192x192",
-        "type":"imagens/png"
+        "type":"imagens/jpg"
       },
       {
-        "src":"imagens/seem.png.",
+        "src":"imagens/seem.png",
         "sizes":"512x512",
         "type":"imagens/png"
       }
