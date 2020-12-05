@@ -1,13 +1,13 @@
 {
   "lang":"pt-BR",
-  "dir":"ltr"
+  "dir":"ltr",
   "name":"TecNews",
     "short-name":"AF",
     "start_url":"https://kessyrezende.github.io/blog_Noticia/",
     "display":"minimal-ui",
-    "scope":"/Site/Noticia/",
+    "scope":"/blog_Noticia/",
     "background_color":"#1d1e20",
-    "theme_color":"#1d1ee",
+    "theme_color":"#1d1eee",
     "orientation":"portrait",
     "descritiption":"site de noticia de tecnologia",
     "icons":[
@@ -15,65 +15,14 @@
         "src":"imagens/seem1.jpg",
         "sizes":"192x192",
         "type":"imagens/png"
-      }
+      },
       {
         "src":"imagens/seem.png.",
         "sizes":"512x512",
         "type":"imagens/png"
       }
-      {
-        "src":"imagens/chip.jpg",
-        "sizes":"660x320",
-        "type":"imagens/png"
-      }
-      {
-        "src":"imagens/fundo3.jpg",
-        "sizes":"512x512",
-        "type":"imagens/png"
-      }
-      {
-        "src":"imagens/fundono.jpg",
-        "sizes":"512x512",
-        "type":"imagens/png"
-      }
-      {
-        "src":"imagens/imagem.jpg",
-        "sizes":"512x512",
-        "type":"imagens/png"
-      }
-      {
-        "src":"imagens/imagem1.jpeg",
-        "sizes":"512x512",
-        "type":"imagens/jpeg"
-      }
-      {
-        "src":"imagens/imagem2.jpeg",
-        "sizes":"512x512",
-        "type":"imagens/jpeg"
-      }
-      {
-        "src":"imagens/imagem3.jpeg",
-        "sizes":"512x512",
-        "type":"imagens/jpeg"
-      }
-      {
-        "src":"imagens/monitor.jpg",
-        "sizes":"512x512",
-        "type":"imagens/png"
-      }
-      {
-      "src":"imagens/mozila.jpg",
-      "sizes":"512x512",
-      "type":"imagens/png"
-    }
-    {
-      "src":"imagens/vacina.jpg",
-      "sizes":"512x512",
-      "type":"imagens/png"
-    }
+
   ],
     "related_applications":"[]",
     "prefer_related_applications":"false"
-
-
 }
