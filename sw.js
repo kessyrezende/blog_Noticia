@@ -1,5 +1,5 @@
-conts cacheName = "noticia-v1"
-conts files=[
+const cacheName = "noticia-v1"
+const files=[
     "/blog_Noticia/",
     "/blog_Noticia/index.html",
     "/blog_Noticia/script.js",
@@ -10,13 +10,11 @@ conts files=[
     "/blog_Noticia/estilo3.css",
     "/blog_Noticia/estiloos.css",
     "/blog_Noticia/sobre.html",
-    "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css",
-    "Tecnologia reaproxima familiares e pacientes da Covid-19 em hospital de campanha em SP.html",
-    "https://www.tecmundo.com.br/produto/152373-quer-saber-monitor-comprar-confira-5-opcoes-acessiveis.htm",
-    "https://www.tecmundo.com.br/mercado/153262-chip-quantico-deve-quebrar-criptografia-bitcoin-2-anos.htm",
-    "https://www.tecmundo.com.br/software/153253-mozilla-encerrara-suporte-adobe-flash-firefox-84.htm"
-
-
+    "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons",
+    "https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css",
+    "https://code.jquery.com/jquery-3.2.1.slim.min.js",
+    "https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js",
+    "https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
 ]
 
 self.addEventListener('install', function(evt){
@@ -31,6 +29,7 @@ self.addEventListener('install', function(evt){
 self.addEventListener('activate', function(evt){
    console.log("activate sw");
 })
+
 self.addEventListener('fetch', function(evt){
    console.log("fetch sw");
     evt.respondWith(
